@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>Youtube.com Clone</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles/general.css">
+<link rel="stylesheet" href="styles/header.css">
+<link rel="stylesheet" href="styles/videos.css">
+<link rel="stylesheet" href="styles/sidebar.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+      <img class="youtube-logo" src="icons/youtube-logo.svg">
+    </div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" src="icons/search.svg">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="icons/upload.svg">
+        <div class="tooltip">Create</div>
+      </div>
+      <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+      <div class="notifications-icon-container">
+        <img class="notifications-icon" src="icons/notifications.svg">
+        <div class="notifications-count">3</div>
+      </div>
+      <img class="current-user-picture" src="channel-pictures/my-channel.jpg">
+    </div>
+  </header>
+
+  <nav class="sidebar">
+    <div class="sidebar-link">
+      <img src="icons/home.svg">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/explore.svg">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/subscriptions.svg">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/originals.svg">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/youtube-music.svg">
+      <div>YouTube Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/library.svg">
+      <div>Library</div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+          <div class="video-time">21:58</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-a.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              I built the same app 10 times // Which JS Framework is best?
+            </p>
+            <p class="video-author">
+              Fireship
+            </p>
+            <p class="video-stats">
+              2.6M views &#183; 3 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+          <div class="video-time">3:26:43</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-b.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Learn JavaScript-Full Course for Beginners
+            </p>
+            <p class="video-author">
+              freeCodeCamp.org
+            </p>
+            <p class="video-stats">
+              19M views &#183; 6 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+          <div class="video-time">6:14:07</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-c.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Python Full Course for Beginners
+            </p>
+            <p class="video-author">
+              Programing with Mosh
+            </p>
+            <p class="video-stats">
+              4th views &#183; 5 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+          <div class="video-time">17:03</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-d.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Apple breaks the ceiling again | M4 Macbook Pro tests
+            </p>
+            <p class="video-author">
+              Alex Ziskind
+            </p>
+            <p class="video-stats">
+              145k views &#183; 2 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+          <div class="video-time">11:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-5.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Kadane's Algorithm to Maximum Sum Subarray Problem
+            </p>
+            <p class="video-author">
+              CS Dojo
+            </p>
+            <p class="video-stats">
+              519K views &#183; 5 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+          <div class="video-time">8:11</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-f.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              macOS Sequoia - 10 Settings You NEED to Change on Launch
+            </p>
+            <p class="video-author">
+              Andrew Ethan Zerg
+            </p>
+            <p class="video-stats">
+              560k views &#183; 4 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+          <div class="video-time">32:39</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-g.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              is DLSS 4 Multi Frame Generation Worth it>
+            </p>
+            <p class="video-author">
+              Hardware Unboxed
+            </p>
+            <p class="video-stats">
+              219 views &#183; 2 minutes ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+          <div class="video-time">1:15:51</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-h.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              ASMR Programming-flappy Bird-No Talking
+            </p>
+            <p class="video-author">
+              Mehmet Emin Eker
+            </p>
+            <p class="video-stats">
+              1.1M views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      
+    </section>
+  </main>
+</body>
+</html>
+
+<!--go to a website and click inspect and click on an image. Find the link and open it. Then, save the image inside the folder containing the html file-->
+<!-- img is another example of a void element-->
+<!--when you adjust width of an image, the height also adjusts to have the same dimensions (same shape)-->
+<!--if you want to have an image with the same amount of pixels for height and width, we use object-fit. This lets it keep its shape.-->
+<!-- object fit contain will shrink the image from its original dimesions to make it fit based on the given height and width-->
+<!-- give the image a border and change the object-position to get a visual representation-->
+<!-- input is for creating text boxes or check boxes etc...-->
+ <!--in html there are 3 types of elements. Block elements take up the entire line. Paragraphs by default are block elements-->
+ <!--the  second type is in-line block element. They only take up as much space as they need to-->
+ <!-- the thid is the inline element. they are just text elements such as the strong element. They appear within a line of text-->
+  <!--CSS display is a CSS property where we can easily switch from a block element to an inline block element. The syntax is  display: inline-block;-->
+  <!--if 2 classes in styles use the exact same syntax, we can combine both classes together and write the code only once. We separate them with a comma, such as .video-author, .video-stats {}-->
+  <!--div means division. div is just a box. div is also a block element-->
+  <!--div is usful because it can contain any other element inside. p, buttons, etc...-->
+  <!--divs are containers. These containers allow us to group elements together like a youtube video square containing the image, author, stats and pp-->
+  <!--when in a container, block elements take up the entire space in the container rather than the page-->
+  <!--divs by default take up the entire line-->
+  <!--There are 2 Nested Layout techniques-->
+  <!--Vertical Layouts and Horizontal Layouts-->
+  <!--We call it nested layout technique because we have layouts within layouts-->
+  <!--To create a vertical layout, we create 2 divs-->
+  <!--for the horizontal, make the 2 divs inline blocks-->
+  <!--for font family, youput 2 fonts so that in case the first font fails, the program has another one to fall back on-->
+  <!--inline-block has some alignment problems-->
+  <!--all the previous inline block styles and width and aligns can be deleted after adding the grid-->
+  <!--for .thumbnail, display:block is no longer necessary but I will leave it there for clarity-->
+  <!--everything used in .video-preview style can be deleted after implementing grid properties. I will keep it there empty to track progress-->
+  <!--we will turn each section into the header section into a flexbox to be able to align each section to the center-->
+  <!--the main flexbox that encompasses everything will only affect the first layer, such as the properties of the left-section as an overall container. If we want to modify the properties of the contens inside the container we use a flexbox inside-->
+  <!--to prevent the right section from shrinking after shrinking the window,we use the property flex-shrink:0;-->
+  <!--in search-bar, we use width:0 to to remove the defaultwidth of the bar and allow it to shink as much as possible as we're shrinking the window-->
+  <!--CSS position allows us to keep the header and side bar on the top of the pages as we scroll-->
+  <!--Any element on top of another element is also using CSS position-- such as video runtime on the thumbnail or the notification number>
